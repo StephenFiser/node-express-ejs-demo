@@ -1,0 +1,10 @@
+<% include header %>
+<h1>All Recipes</h1>
+<ul>
+<% recipes.forEach(function(recipe){ %>
+	<li><a href="/recipes/<%= recipe.url %>"><%= recipe.name %></a></li>
+<% }); %>
+</ul>
+
+<p><a href="/recipes/suggest">Suggest a new recipe!</a></p>
+<% include footer %>

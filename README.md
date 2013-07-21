@@ -1,0 +1,1 @@
+This is a basic app that demonstrates node, express, and ejs templating with express 3.

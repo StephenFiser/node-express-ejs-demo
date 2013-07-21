@@ -1,0 +1,10 @@
+{
+	"name": "recipes",
+	"description": "recipe app for lynda.com",
+	"version": "0.0.1",
+	"private": true,
+	"dependencies": {
+		"express": "3.3.4",
+		"ejs": "0.8.4"
+	}
+}
